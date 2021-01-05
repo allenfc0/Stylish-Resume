@@ -1,0 +1,115 @@
+﻿
+
+/*Whole Page Content*/
+* {
+    font-family: 'Century Schoolbook';
+    box-sizing: border-box;
+    color: #e8e9e8;
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: black;
+    font-size: 25px;
+}
+
+.main {
+    background-size: cover;
+    padding: 35px;
+    margin: 25px;
+    
+}
+
+/*Content Styling*/
+#mTitle {
+    text-align: center;
+    border: 20px double;
+    padding: 35px;
+}
+
+#mTitle::before {
+    padding: 15px;
+    content: url("images/heart.gif");
+}
+
+#mTitle::after {
+    padding: 15px;
+    content: url("images/heart.gif");
+}
+
+h2 {
+    padding: 20px 0px 20px 50px;
+}
+
+ul {
+    padding: 0px 0px 0px 120px
+}
+li {
+    list-style-image: url("images/fire.gif");
+    padding: 5px 0px;
+}
+
+
+/*Contact information will go in the footer of the page*/
+p {
+    padding: 0px 125px;
+    color: black;
+}
+
+#linkImg {
+    width: 30px;
+    height: 30px;
+}
+
+
+
+/*Form*/
+label {
+    display: block;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    color: black;
+    
+}
+
+input:hover {
+    border-color: forestgreen;
+}
+
+
+#submitBtn {
+    font-size: 14px;
+    width: 80px;
+    height: 30px;
+    margin-top: 30px;
+    border: 20px;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.footer {
+    border: 10px solid darkgreen;
+    background-color: #808080;
+    padding: 30px;
+    margin-bottom: 70px;
+    height: 300px;
+}
+
+.pigImg {
+    position: absolute; 
+    left: 200px;
+}
+
+.cont {
+    position: absolute;
+    right: 100px;
+}
+
+
+
